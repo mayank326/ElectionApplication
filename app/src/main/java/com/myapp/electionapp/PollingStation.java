@@ -119,7 +119,7 @@ public class PollingStation extends AppCompatActivity {
                                   //Toast.makeText(ctx, ps_name[0], Toast.LENGTH_SHORT).show();
                                   if (ac_no[0].equals("4")||ac_no[0].equals("14")||ac_no[0].equals("15")||ac_no[0].equals("16")||ac_no[0].equals("17")||ac_no[0].equals("18")||ac_no[0].equals("19")||ac_no[0].equals("20")||ac_no[0].equals("21")||ac_no[0].equals("22")){
                                       if (ps_name[0] != null) {
-                                          startActivity(new Intent(PollingStation.this, BoothActivity2.class));
+                                          startActivity(new Intent(PollingStation.this, PollingStation2.class));
                                       }
                                   }
                                   else{

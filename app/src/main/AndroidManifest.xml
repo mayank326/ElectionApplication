@@ -11,38 +11,40 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-
-        <activity android:name=".ResultActivity"
+        <activity android:name=".AllPollingStation" />
+        <activity android:name=".PollingStation2" />
+        <activity
+            android:name=".ResultActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppThemeNoActionBar"/>
-
-        <activity android:name=".AboutChandniChowk"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".AboutChandniChowk"
             android:screenOrientation="portrait"
-            android:theme="@style/AppThemeNoActionBar"/>
-        <activity android:name=".HelpActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".HelpActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppThemeNoActionBar"/>
+            android:theme="@style/AppThemeNoActionBar" />
         <activity
             android:name=".ThirdGender"
-            android:screenOrientation="portrait"
-            android:label="Facilities for Third Gender" />
+            android:label="Facilities for Third Gender"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PWD"
-            android:screenOrientation="portrait"
-            android:label="Facility for PwD (Divyang)" />
+            android:label="Facility for PwD (Divyang)"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".knowCandidate"
-            android:screenOrientation="portrait"
-            android:label="Know Your Candidate" />
+            android:label="Know Your Candidate"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PollingStation"
-            android:screenOrientation="portrait"
-            android:label="Know Your Polling Station" />
+            android:label="Know Your Polling Station"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Feedback"
-            android:screenOrientation="portrait"
-            android:label="Feedback" />
+            android:label="Feedback"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".IncludeCard"
             android:screenOrientation="portrait"
